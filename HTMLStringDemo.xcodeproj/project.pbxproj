@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A9DC261C333812005361E2 /* bootstrap.css in Resources */ = {isa = PBXBuildFile; fileRef = 00A9DC251C333812005361E2 /* bootstrap.css */; };
 		00C014951C3309FF001F47CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C014941C3309FF001F47CD /* AppDelegate.swift */; };
 		00C014971C3309FF001F47CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C014961C3309FF001F47CD /* ViewController.swift */; };
 		00C0149A1C3309FF001F47CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C014981C3309FF001F47CD /* Main.storyboard */; };
 		00C0149C1C3309FF001F47CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C0149B1C3309FF001F47CD /* Assets.xcassets */; };
 		00C0149F1C3309FF001F47CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C0149D1C3309FF001F47CD /* LaunchScreen.storyboard */; };
+		00C014A71C330A60001F47CD /* DummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C014A61C330A60001F47CD /* DummyData.json */; };
+		52C3E9641C341AAB004C470E /* HtmlString.html in Resources */ = {isa = PBXBuildFile; fileRef = 52C3E9631C341AAB004C470E /* HtmlString.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00A9DC251C333812005361E2 /* bootstrap.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
 		00C014911C3309FF001F47CD /* HTMLStringDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMLStringDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C014941C3309FF001F47CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00C014961C3309FF001F47CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		00C0149B1C3309FF001F47CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C0149E1C3309FF001F47CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00C014A01C3309FF001F47CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C014A61C330A60001F47CD /* DummyData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DummyData.json; sourceTree = "<group>"; };
+		52C3E9631C341AAB004C470E /* HtmlString.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = HtmlString.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		00C014931C3309FF001F47CD /* HTMLStringDemo */ = {
 			isa = PBXGroup;
 			children = (
+				00A9DC251C333812005361E2 /* bootstrap.css */,
+				00C014A61C330A60001F47CD /* DummyData.json */,
 				00C014941C3309FF001F47CD /* AppDelegate.swift */,
 				00C014961C3309FF001F47CD /* ViewController.swift */,
 				00C014981C3309FF001F47CD /* Main.storyboard */,
 				00C0149B1C3309FF001F47CD /* Assets.xcassets */,
 				00C0149D1C3309FF001F47CD /* LaunchScreen.storyboard */,
 				00C014A01C3309FF001F47CD /* Info.plist */,
+				52C3E9631C341AAB004C470E /* HtmlString.html */,
 			);
 			path = HTMLStringDemo;
 			sourceTree = "<group>";
@@ -122,8 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A9DC261C333812005361E2 /* bootstrap.css in Resources */,
+				00C014A71C330A60001F47CD /* DummyData.json in Resources */,
 				00C0149F1C3309FF001F47CD /* LaunchScreen.storyboard in Resources */,
 				00C0149C1C3309FF001F47CD /* Assets.xcassets in Resources */,
+				52C3E9641C341AAB004C470E /* HtmlString.html in Resources */,
 				00C0149A1C3309FF001F47CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +296,7 @@
 				00C014A51C3309FF001F47CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
