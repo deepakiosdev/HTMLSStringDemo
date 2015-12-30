@@ -7,6 +7,9 @@
 //
 
 import UIKit
+//https://www.google.co.in/search?q=how+long+google+anaylitics+activity+updated&ie=utf-8&oe=utf-8&gws_rd=cr&ei=23aDVrKCI8LEmAX9sZigCA
+//http://makeapppie.com/2014/10/20/swift-swift-using-attributed-strings-in-swift/
+//http://www.scriptscoop.net/t/824a402aa5f7/how-do-i-make-uitextviews-tappable-links-not-have-an-underline.html
 
 class ViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
